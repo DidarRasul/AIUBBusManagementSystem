@@ -1,0 +1,2 @@
+ALTER TABLE RouteLocations
+ADD Fare DECIMAL(10,2) NULL;
