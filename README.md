@@ -6,7 +6,6 @@ The **AIUB Bus Management System** is a C# Windows Forms application developed t
 
 The system provides separate functionalities for **Admin, Driver, and Student** users. It manages routes, buses, drivers, students, pickup locations, time slots, bus assignments, pickup confirmations, and travel/payment records.
 
----
 
 ## User Roles
 
@@ -39,7 +38,6 @@ The system provides separate functionalities for **Admin, Driver, and Student** 
 - Submit bus pickup requests
 - View pickup-related information
 
----
 
 ## Main Features
 
@@ -66,7 +64,7 @@ The system provides separate functionalities for **Admin, Driver, and Student** 
 - Change Password
 - Logout
 
----
+
 
 ## Technologies Used
 
@@ -77,7 +75,6 @@ The system provides separate functionalities for **Admin, Driver, and Student** 
 - **Microsoft.Data.SqlClient**
 - **Visual Studio**
 
----
 
 ## Database
 
@@ -101,11 +98,9 @@ The complete database structure and demo data are included in:
 
 `Database/AIUBBusManagementSystem_WithData.sql`
 
----
 
 ## Project Structure
 
-```text
 AIUBBusManagementSystem
 │
 ├── Database
