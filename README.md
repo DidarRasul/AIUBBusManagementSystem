@@ -138,101 +138,68 @@ AIUBBusManagementSystem
 
 
 
-## Database Query Operations
+##Application Architecture
+
+The application follows a layered architecture:
+
+Forms / UserControls
+        ↓
+     Services
+        ↓
+   Repositories
+        ↓
+    SQL Server
+
+##Database Query Operations
 
 The project includes different types of SQL query operations, such as:
 
-- Advanced SQL Queries
-- JOIN Queries
-- Subqueries
-- Aggregate Functions
-- Filtering and Sorting
-- Database Reporting Queries
-- Dynamic Control Creation at Run-Time
+##Advanced SQL Queries
+JOIN Queries
+Subqueries
+Aggregate Functions
+Filtering and Sorting
+Database Reporting Queries
+Dynamic Control Creation at Run-Time
 
-The SQL query files are available in the `Sql Query` folder.
+The SQL query files are available in the Sql Query folder.
 
----
+##How to Run
 
-## How to Run
+Requirements
+Visual Studio
+.NET
+SQL Server Express
+SQL Server Management Studio (SSMS)
 
-### Requirements
-
-- Visual Studio
-- .NET
-- SQL Server Express
-- SQL Server Management Studio (SSMS)
-
-### Database Setup
-
----
-
-## Database Query Operations
-
-The project includes different types of SQL query operations, such as:
-
-- Advanced SQL Queries
-- JOIN Queries
-- Subqueries
-- Aggregate Functions
-- Filtering and Sorting
-- Database Reporting Queries
-- Dynamic Control Creation at Run-Time
-
-The SQL query files are available in the `Sql Query` folder.
-
----
-
-## How to Run
-
-### Requirements
-
-- Visual Studio
-- .NET
-- SQL Server Express
-- SQL Server Management Studio (SSMS)
-
-### Database Setup
-
-1. Open SQL Server Management Studio.
-2. Open the database script from:
-
-```text
+##Database Setup
+1.Open SQL Server Management Studio.
+2.Open the database script from:
 Database/AIUBBusManagementSystem_WithData.sql
+3.Execute the script to create the database and insert the demo data.
+4.Open the project in Visual Studio.
+5.Make sure the SQL Server connection string is configured correctly.
+6.Run the application.
 
 
-3. Execute the script to create the database and insert the demo data.
-4. Open the project in Visual Studio.
-5. Make sure the SQL Server connection string is configured correctly.
-6. Run the application.
+##Project Documentation
+The project report contains the detailed documentation of the AIUB Bus Management System, including database design, SQL queries, system implementation, and project-related information.
 
----
 
-## Project Documentation
+##Future Improvements
+Online payment integration
+Real-time bus tracking
+GPS-based bus location
+Automated notifications
+Mobile application support
+Improved reporting and analytics
 
-The project report contains the detailed documentation of the **AIUB Bus Management System**, including database design, SQL queries, system implementation, and project-related information.
 
----
-
-## Future Improvements
-
-- Online payment integration
-- Real-time bus tracking
-- GPS-based bus location
-- Automated notifications
-- Mobile application support
-- Improved reporting and analytics
-
----
-
-## Author
-
-**AIUB Bus Management System**
-
+##Author
+AIUB Bus Management System
 Developed as a university academic project.
 
----
 
-## License
-
+##License
 This project is developed for educational and academic purposes.
+
