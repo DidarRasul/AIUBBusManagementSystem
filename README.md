@@ -136,22 +136,7 @@ AIUBBusManagementSystem
 ├── AIUBBusManagementSystem.slnx
 └── README.md
 
----
 
-## Application Architecture
-
-The application follows a layered architecture:
-
-```text
-Forms / UserControls
-        ↓
-     Services
-        ↓
-   Repositories
-        ↓
-    SQL Server
-
-    ---
 
 ## Database Query Operations
 
