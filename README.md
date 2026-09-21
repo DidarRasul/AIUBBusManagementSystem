@@ -1,9 +1,13 @@
-AIUB Bus Management System
-Project Overview
+##AIUB Bus Management System
+
+##Project Overview
+
 The AIUB Bus Management System is a C# Windows Forms application developed to manage university bus transportation efficiently.
 The system provides separate functionalities for Admin, Driver, and Student users. It manages routes, buses, drivers, students, pickup locations, time slots, bus assignments, pickup confirmations, and travel/payment records.
 ---
-User Roles
+
+##User Roles
+
 Admin
 Manage students
 Manage drivers
