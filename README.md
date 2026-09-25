@@ -42,7 +42,7 @@ The system provides separate functionalities for **Admin, Driver, and Student** 
 - Submit bus pickup requests
 - View pickup-related information
 
----
+
 
 ## Main Features
 
